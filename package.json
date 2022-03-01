@@ -1,0 +1,52 @@
+{
+  "name": "nextanwromo-admin",
+  "version": "1.0.1",
+  "description": "Next Wromo server admin node, express database",
+  "main": "index.js",
+  "scripts": {
+    "start:dev": "nodemon api/index.js",
+    "start": "node api/index.js",
+    "production": "NODE_ENV=production nodemon api/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "data:import": "node seed.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ersin84/nextanwromo-backend.git"
+  },
+  "keywords": [
+    "nextanwromo-admin",
+    "admin",
+    "node",
+    "express",
+    "database",
+    "mongodb"
+  ],
+  "author": "Iulian Ghepes Wromo",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.0",
+    "cloudinary": "^1.26.3",
+    "cors": "^2.8.5",
+    "dayjs": "^1.10.7",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "express-rate-limit": "^6.1.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.13.8",
+    "mongoose-sequence": "^5.3.1",
+    "multer": "^1.4.3",
+    "nodemailer": "^6.7.2",
+    "socket.io": "^4.4.0",
+    "uuid": "^8.3.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  },
+  "bugs": {
+    "url": "https://github.com/Ersin84/nextanwromo-backend/issues"
+  },
+  "homepage": "https://github.com/Ersin84/nextanwromo-backend#readme"
+
+}
