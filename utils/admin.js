@@ -1,6 +1,15 @@
 const bcrypt = require('bcryptjs');
 const admins = [
   {
+    name: 'Manager Wromo',
+    image: 'https://i.ibb.co/Hh3krb5/team-2.jpg',
+    email: 'support@wromo.com',
+    password: bcrypt.hashSync('Wwromo2$'),
+    phone: '08800802773',
+    role: 'Manager',
+    joiningData: new Date(),
+  },
+  {
     name: 'Wromo Security IT',
     image: 'https://i.ibb.co/vhg8JGg/team-6.jpg',
     email: 'admin@wromo.com',
@@ -19,7 +28,7 @@ const admins = [
     joiningData: new Date(),
   },
   {
-    name: 'Corrie H. Cates',
+    name: 'Accountant Wromo',
     image: 'https://i.ibb.co/CVSjcw9/team-4.jpg',
     email: 'info.simiyoo@gmail.com',
     password: bcrypt.hashSync('Wwromo4$'),
@@ -37,16 +46,7 @@ const admins = [
     joiningData: new Date(),
   },
   {
-    name: 'Manager Wromo',
-    image: 'https://i.ibb.co/Hh3krb5/team-2.jpg',
-    email: 'support@wromo.com',
-    password: bcrypt.hashSync('Wwromo2$'),
-    phone: '08800802773',
-    role: 'Manager',
-    joiningData: new Date(),
-  },
-  {
-    name: 'Admin',
+    name: 'Admin Wromo',
     image: 'https://i.ibb.co/QFyN79P/team-1.jpg',
     email: 'info.wromo@gmail.com',
     password: bcrypt.hashSync('Wwromo1$'),
